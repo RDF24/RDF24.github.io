@@ -1,0 +1,56 @@
+nav ul {
+	list-style: none;
+	text-align: center;
+	
+}
+
+nav ul li {
+	display: inline;
+	padding: 25px;
+	font-family: arial;
+	font-size: 20px;
+	
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+}
+
+nav a:hover {
+	color: yellow;
+}
+
+body {
+	background-image: url(b1.jpg);
+	background-position: center;
+}
+
+#pic {
+	height: 30%;
+	border-radius: 50%;
+	margin-top: -47px;
+}
+
+h1 {
+	font-family: 'Rock Salt', cursive;
+	color: gold;
+	font-size: 40px;
+	margin-left: 5%
+	
+}
+
+h6 {
+	margin-top: -3px;
+	color: gold;
+	font-size: 15px;
+	margin-left: 3%
+}
+
+body p {
+	text-align: center;
+	margin-left: 25%;
+	margin-right: 25%;
+	color: white;
+	font-size: 25px;
+}
