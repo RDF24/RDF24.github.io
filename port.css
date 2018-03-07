@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Bangers');
 body {
 	margin: 0;
+	background-color: rgb(194, 194, 163);
 }
 
 .body {
@@ -19,7 +20,7 @@ header {
 	color: white;
 	padding-left: 17%;
 	letter-spacing: .1rem;
-	;
+	
 }
 
 header a {
@@ -57,7 +58,6 @@ nav ul li a:hover {
 	line-height: 1.3rem;
 	font-family: serif;
 	font-size: 1.2rem;
-	background-color: white;
 }
 
 .port1,
@@ -91,7 +91,7 @@ a {
 
 .pic {
 	box-shadow: 2px 4px rgb(0, 69, 111);
-	;
+	
 	width: 90%;
 	height: 90%;
 }
