@@ -82,6 +82,7 @@ p {
 	text-align: center;
 	font-family: 'Boogaloo', sans-serif;
 	font-size: 1.05rem;
+	padding: 0 2px;
 }
 
 header a {
