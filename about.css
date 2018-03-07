@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Oswald|Indie+Flower');
 * {
 	margin: 0 auto;
 	padding: 0;
@@ -47,7 +47,7 @@ small {
 	grid-area: about;
 	text-align: justify;
 	width: 85%;
-	font-family: cursive;
+	font-family: 'Indie Flower',cursive;
 	font-size: .9rem;
 	font-weight: 600;
 	height: 100%;
