@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: linear-gradient(rgb(50,128,205), rgb(205,127,50));
+}
+	
+#content{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(49%, auto) );
+  grid-gap: 10px;
+	
+	
+	
+}
+
+.entry {
+box-shadow: 3px 5px rgb(0,69,111);	
+	width: 85%;
+	margin: 10px auto;
+	background-color: sandybrown;
+}
+
+
+
+#main {
+	text-align: center;
+	background-color: rgb(0,69,111);
+	color: white;
+	width: 100%;
+	font-size: 2rem;
+	font-family: 'Oswald', sans-serif;
+	
+}
+
+#nav {
+	text-align: center;
+
+	
+}
+
+#nav li{
+	display: inline-block;
+	padding: 5px 8px;
+	margin: 8px 50px;
+	font-size: .8rem;
+	color: black;
+	border-radius: 12%;
+	background-color: sandybrown;
+	
+}
+#nav a {
+	color: black;
+	text-decoration: none;
+}
+
+header ul li{
+	display: inline-block;
+	padding-right: 35px;
+	font-size: .9rem;
+	padding-bottom: 18px;
+	
+	
+}
+
+
+.pic {
+	
+	width: 100%;
+	
+}
+ h3 {
+	text-align: center;
+	color: rgb(0,69,111);
+}
+
+p {
+		color: black;
+		text-align: center;
+}
+
+header a {
+	text-decoration: none;
+	color: white;
+}
+
+.entry  a {
+	color: rgb(0,69,111);
+}
+
+hr {
+	width: 85%;
+	margin: 0 auto;
+}
+
+		
+@media screen and (min-width: 900px) {
+	header ul {
+		float: right;
+		
+	}
+	#main {
+		font-size: 3.5rem;
+	}
+	
+	#nav {
+		margin: 10px 50px;
+	}
+}
