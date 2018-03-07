@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Oswald|Boogaloo');
 * {
 	margin: 0;
 	padding: 0;
@@ -80,6 +80,7 @@ header ul li{
 p {
 		color: black;
 		text-align: center;
+	font-family: 'Boogaloo', sans-serif;
 }
 
 header a {
